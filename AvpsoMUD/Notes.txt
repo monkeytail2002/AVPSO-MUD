@@ -1,0 +1,64 @@
+ROOM FORMAT
+
+VNUM (area number)
+ROOM NAME
+~
+ROOM DESCRIPTION
+~
+ROOM TYPE
+SECTOR TYPE
+~
+DIRECTIONS FIELD
+~
+EXTRA ROOM DESCRIPTIONS
+~
+S (marks end of room)
+
+
+
+#ROOM TYPES
+a   DARK
+b   DEATH
+c   NOMOB
+d   INDOORS
+e   PEACEFUL
+f   SOUNDPROOF
+g   NOTRACK
+h   NOMAGIC
+i   TUNNEL
+j   PRIVATE
+k   GODROOM
+
+#SECTOR TYPE
+0   INSIDE
+1   CITY
+2   FIELD
+3   FOREST
+4   HILLS
+5   MOUNTAINS
+6   WATER_SWIM
+7   WATER_NOSWIM
+8   FLYING
+9   UNDERWATER
+
+#DIRECTION FIELD
+D<direction number>
+DESCRIPTION
+~
+COMMANDS (for manipulation such as close, open, lock etc)
+DOOR FLAG (0 - unrestricted, 1 - normal, 2 - pickproof)
+KEY NUMBER
+LINKED ROOM
+
+#DIRECTIONS
+North = 0
+South = 1
+East = 2
+West = 3
+Up = 4
+Down = 5
+
+#EXTRA DESCRIPTIONS FIELD
+E
+DESCRIPTION NAME
+DESCRIPTION
