@@ -1,0 +1,56 @@
+#ROOMS
+#0001
+The Lake House
+~
+This week, we are playing a MUD.  Multi User Dungeon for those that don't know.  Now that you've chosen your race
+and class, now it's time to train.  You can train until you're 5th level here, or you can bugger off without training.
+To the North you can see a black swirling portal set in a bronze picture frame.  The rest of the room is nothing
+special, in fact it could do with some cleaning.  Scrawled on the wall is some sort of graffiti which you can barely
+make out.
+~
+0
+e
+~
+D0
+An ominous swirling black portal gives off a faint feeling of dread.  It feels like it's looking back at you.  You can
+hear a faint giggle coming from it.
+~
+~
+0
+~
+0002
+~
+E
+graffiti
+"BACKWOODS JESUS WOZ ERE!"
+~
+S
+0002
+The Hallway
+~
+After an unknown length of time, you finally exit out of the portal and arrive in a hallway.  The walls are varnished
+pine and there are what look like finger scratches along the floor.  As if someone had been dragged against their will.
+  There is a faint smell of vaseline in the air and that ominous feeling of dread has increased.  The hall stretches on
+to the north and there is a door to the south.
+~
+d
+e
+~
+D0
+The hallway is dim and you think you can see shapes up ahead.  It appears to be the only way forward.
+~
+~
+~
+0
+~
+0003
+~
+E
+Door~
+The door is stuck.
+~
+E
+scratches~
+There are multiple scratches of variable depths along the floor and skirting of the walls.  They lead to the North.
+~
+S
