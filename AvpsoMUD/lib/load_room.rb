@@ -1,5 +1,5 @@
 def room(rooms)
-  File.open('areas/Training.txt').each do |line|
+  File.open('../areas/Training.txt').each do |line|
     rooms = line
     @rooms = rooms
     puts @rooms
