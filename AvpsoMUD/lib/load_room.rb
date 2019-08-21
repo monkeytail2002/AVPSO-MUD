@@ -1,6 +1,13 @@
+
+
 def room(rooms)
-  File.open('../areas/Training.txt').each do |line|
-    rooms = line
+  contentsArea = []
+
+  Dir.glob('../areas/*.txt').each do |filename|
+    next if File.directory?(filename)
+    lines = IO.readlines(filename)
+    contentsArea.concat(lines)
+    rooms = contentsArea
     @rooms = rooms
     puts @rooms
   end
