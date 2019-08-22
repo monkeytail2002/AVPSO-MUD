@@ -1,4 +1,4 @@
-
+class Dice
 
   #Dice roller that allows for multiple dice and varying die sizes.
   def roll(sides, number=1)
@@ -14,9 +14,12 @@
     end
     total
   end
+end
 
-  #Test of concept.
-  puts roll(6, 2)
+#instantiates the dice class
+dice_roll = Dice.new
+dice_rolled = dice_roll.roll(20,2)  #calls the roll method and sets it to a variable
+puts dice_rolled #displays the results.
 
 
 
